@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Flexibble",
   description: "Showcase and discover remarkable developer projects",
@@ -10,7 +12,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        NavHeader
+        <main>{children}</main>
+        Footer
+      </body>
     </html>
   );
 }
