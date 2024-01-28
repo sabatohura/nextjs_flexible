@@ -92,3 +92,9 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const footerDescription =
+  "Flexibble is the world's leading community for creatives to share, grow, and get hired.";
+
+export const copyrightMessage = "@ 2024 Flexibble. All rights reserved";
+export const projectsTotal = "10,214";
